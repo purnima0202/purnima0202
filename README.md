@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @purnima0202
-- 🌱 I’m currently learning Data Science using R
+- 🌱 I’m currently learning CSS
 
 <!---
 purnima0202/purnima0202 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
