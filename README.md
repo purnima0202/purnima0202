@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @purnima0202
+- 👋 Hi, I’m Purnima
 - 🌱 I’m currently learning CSS
 
 <!---
