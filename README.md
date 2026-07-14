@@ -11,6 +11,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![Java](https://img.shields.io/badge/Java%20%2F%20Spring-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
@@ -32,7 +33,8 @@ class Purnima:
         self.shipped   = "an ML recommendation model to real enterprise users"
         self.thesis    = "Multimodal XAI for blood cell morphology (171,374 samples)"
         self.published = "Springer LNEE vol. 1519 — SMPC × Blockchain"
-        self.also_does = ["essay-video scripts", "sociology takes", "Ayurveda rabbit holes"]
+        self.likes     = ["models small enough to run on a Pi",
+                          "explanations you can actually argue with"]
 
     def currently(self):
         return "open to AI / ML / backend roles across Ireland ☕"
@@ -56,6 +58,32 @@ Counterfactual explanation framework with RAG-style retrieval over **171,374 sam
 </td>
 <td width="50%" valign="top">
 
+### 🍎 [Smart Fruit Detection](https://github.com/purnima0202/Smart_Fruit_Detection)
+**Edge AI** · OpenMV Cam RT1062 · Edge Impulse · MicroPython
+
+Hold a fruit in front of the camera, get its nutritional profile back — protein, fat, carbs, minerals, key vitamin. A **FOMO** model deployed as a `.eim` binary runs entirely **on-device**; above a 70% confidence threshold, a MicroPython lookup pulls from a **USDA FoodData Central** database and streams results over UART or WiFi.
+
+No cloud, no round-trip. Also benchmarked RGB vs grayscale FOMO against YOLO to see what the edge budget actually bought.
+
+`FOMO` `Edge Impulse` `MicroPython` `On-device inference`
+
+<sub>Group project · [full report in repo](https://github.com/purnima0202/Smart_Fruit_Detection/blob/main/Mini-project_report_Group5.pdf)</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🍓 Raspberry Pi Vision System
+**Edge ML** · OpenCV · HOG · TensorFlow Lite
+
+Face and object detection running on a device with the compute budget of a toaster. Latency tuning, model quantisation, and a healthy respect for hardware constraints.
+
+`OpenCV` `TFLite` `Edge`
+
+</td>
+<td width="50%" valign="top">
+
 ### 🔐 SMPC × Blockchain
 **Published Paper** · Springer
 
@@ -64,28 +92,6 @@ Lecture Notes in Electrical Engineering, vol. 1519 (2026)
 [`10.1007/978-3-032-12474-6_16`](https://doi.org/10.1007/978-3-032-12474-6_16)
 
 `Cryptography` `Privacy` `Distributed Systems`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🍓 Raspberry Pi Computer Vision
-**Edge ML** · OpenCV · TensorFlow Lite
-
-Real-time inference on a device with the compute budget of a toaster. Quantisation, latency tuning, and a healthy respect for hardware constraints.
-
-`OpenCV` `TFLite` `Edge`
-
-</td>
-<td width="50%" valign="top">
-
-### ⚖️ Bias in Vision Models
-**CS6461** · Fairness research
-
-Found an **intersectional** effect — lighting conditions × skin complexion — that neither variable revealed alone. The kind of result that only shows up if you go looking for it.
-
-`Fairness` `Evaluation`
 
 </td>
 </tr>
@@ -120,7 +126,6 @@ Found an **intersectional** effect — lighting conditions × skin complexion �
 - Oracle Cloud Infrastructure **AI Foundations Associate**
 - Google **AI Essentials**
 - 🏆 **ACI Worldwide FooBar Hackathon** — placed
-- 🌍 **UL Global Ambassador**
 
 ### 🧰 Toolbelt
 
@@ -134,33 +139,15 @@ Found an **intersectional** effect — lighting conditions × skin complexion �
 
 ---
 
-## 🎬 The creative side
+## 🌍 Beyond the code
 
-I make **short-form video essays** — the kind where an academic framework gets smuggled into 60 seconds and nobody notices until the end.
+**UL Global Ambassador** — representing the University of Limerick to prospective and incoming international students. Which, practically speaking, means explaining complicated things to people who've never heard of them before, in a way that actually lands. It turns out that's the same skill as explaining a model's decision to someone who has to sign off on it.
 
-<table>
-<tr>
-<td align="center" width="25%">🏛️<br><b>Colonial history</b><br><sub>the parts left out</sub></td>
-<td align="center" width="25%">📊<br><b>Sociology</b><br><sub>Weber & Bourdieu, applied<br>to things they'd hate</sub></td>
-<td align="center" width="25%">🧠<br><b>Psychology</b><br><sub>without the pop-sci lying</sub></td>
-<td align="center" width="25%">🎭<br><b>Pop culture critique</b><br><sub>cultural capital is real<br>and it's on your FYP</sub></td>
-</tr>
-</table>
-
-> *Bourdieu never saw an Instagram Reel, but he'd have understood the algorithm immediately.*
-
-Also somewhere in the mix: **Ayurvedic pharmacology** at a research level, consumer tech opinions nobody asked for, and a retail job that has taught me more about human behaviour than any psychology module.
+Two degrees on two continents will do that to you.
 
 ---
 
 <div align="center">
-
-## 📈 Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=purnima0202&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=purnima0202&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" height="165" />
-
-<br><br>
 
 ## 🤝 Say hi
 
@@ -168,7 +155,7 @@ Also somewhere in the mix: **Ayurvedic pharmacology** at a research level, consu
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/purnima0202)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:)
 
-<sub>Currently in Dublin · open to AI, ML and backend roles · Stamp 1G · CSEP eligible</sub>
+<sub>Currently in Dublin · open to AI, ML and backend roles · CSEP eligible</sub>
 
 <br>
 
